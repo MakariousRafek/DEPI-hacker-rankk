@@ -1,0 +1,8 @@
+import numpy as np
+
+arr = input().strip().split(" ")
+
+array = np.array(arr,int)
+array.shape = (3,3)
+
+print(array)
